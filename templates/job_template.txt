@@ -1,0 +1,53 @@
+
+   <div class="ui stackable grid faizan">
+            {% for project in projects -%}
+                        <div class="two wide column">
+                        </div>
+                        <div class="twelve wide column">
+                            <br><br>
+                            <div class="header blue">
+                                <a class="header what" >{{ project.title }}</a>
+                            </div>
+                                <div class="ui divider"></div>
+                            <br>
+                            <div class="description hell">
+                                    {{ project.description }}
+                            </div>
+
+
+<ul class="ui list">
+
+
+
+                            {% for task in project.major_tasks -%}
+
+  <li>{{task}}</li>
+
+
+
+                            {% endfor %}
+
+</ul>
+
+
+
+
+
+
+                            <br>
+                             <div class="ui horizontal list  ">
+                                    {% for tag in project.tags -%}
+                                            <a class="item">
+                                                <a class="ui blue basic label">{{tag}}</a>
+                                            </a>
+                                    {% endfor %}
+                            </div>
+
+                        </div>
+
+                        <div class="two wide column">
+                        </div>
+
+                        
+            {% endfor %}
+ </div>
