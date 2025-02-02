@@ -2,24 +2,17 @@
 <html lang="en">
 
 <head>
-
-
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
-
     <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
-
     <style>
-
-
         body {
             font-size: 18px;
 
         }
-
 
         .desc-style {
             font-size: 18px;
@@ -29,7 +22,6 @@
             font-family: 'Muli', sans-serif;
             letter-spacing: .4px;
             padding-bottom: 22px;
-
         }
 
         .header-style {
@@ -40,9 +32,16 @@
             margin-top: 30px;
             margin-bottom: 20px;
             letter-spacing: 0
-
         }
 
+        #back-to-menu {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none;
+            /* Hidden by default */
+            z-index: 1000;
+        }
 
         .space {
             margin-top: 10px;
@@ -53,774 +52,720 @@
 </head>
 
 <body>
+    <div class="ui container grid">
+        <button id="back-to-menu" class="ui secondary basic button">Back to Top</button>
+        <div class="ui one wide column  "></div>
+        <div class="ui fifteen wide column">
+            <br>
+            <br>
+            <div class="ui text menu">
+                <div class="ui stackable   grid container ">
+                    <div class="column fourteen wide  ">
+                        <img class="ui tiny circular   image" src="faizanfareed.jpg">
+                        <div class="ui items ">
+                            <div class="item">
+                                <div class="content ">
+                                    <a class="header  small blue ui">MUHAMMAD FAIZAN FAREED</a>
+                                    <div class="meta">
+                                        <span class="header  tiny "> SENIOR PYTHON BACK-END ENGINEER </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-
-<div class="ui   container grid  ">
-
-
-    <div class="ui one wide column  "></div>
-
-
-    <div class="ui  fifteen wide column  ">
-
-
-        <br>
-        <br>
-
-        <div class="ui text menu">
-
-
-            <div class="ui stackable   grid container ">
-
-                <div class="column fourteen wide  ">
-
-
-                    <!--                   <img class="ui tiny circular   image" src="https://i.stack.imgur.com/35T6i.jpg?s=328&g=1">-->
-
-
-                    <img class="ui tiny circular   image" src="faizanfareed.jpg">
-
-
-                    <div class="ui items ">
+            <div class="ui stackable   grid container " id="education">
+                <div class="column three wide  ">
+                    <div class="ui middle aligned animated list">
                         <div class="item">
-
-                            <div class="content ">
-                                <a class="header  small blue ui">MUHAMMAD FAIZAN FAREED</a>
-
-
-                                <div class="meta">
-
-                                    <span class="header  tiny "> PYTHON BACK-END ENGINEER  </span>
-
-
+                            <i class="linkedin icon blue"></i>
+                            <div class="content">
+                                <div class="header">
+                                    <a href="https://bit.ly/4hhkhg4" target="blank"> LinkedIn </a>
                                 </div>
-
-
                             </div>
-
                         </div>
-
-
                     </div>
-
-
                 </div>
 
-            </div>
-
-        </div>
-
-
-        <br>
-        <br>
-
-
-        <div class="ui stackable   grid container " id="education">
-            <div class="column eight wide  ">
-
-                <div class="ui middle aligned animated  list">
-
-                    <div class="item">
-
-                        <i class="graduation cap icon  "></i>
-                        <div class="content">
-                            <div class="header">
-                                <a href="#">Software Engineer</a>
+                <div class="column four wide  ">
+                    <div class="ui middle aligned animated list">
+                        <div class="item">
+                            <i class="stack overflow icon red"></i>
+                            <div class="content">
+                                <div class="header">
+                                    <a href="https://bit.ly/3fN7gKG" target="blank"> Stack overflow</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-
-                    <div class="item">
-                        <i class="university icon "></i>
-                        <div class="content">
-                            <div class="header">
-                                <a href="https://www.umt.edu.pk/" target="blank">University of Management and
-                                    Technology, Lahore Pakistan </a>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <i class="home icon  "></i>
-
-                        <div class="content">
-                            <div class="header">
-                                <a href="https://www.google.com/maps/place/Lahore,+Punjab,+Pakistan/@31.4840189,74.0482662,10z/data=!4m5!3m4!1s0x39190483e58107d9:0xc23abe6ccc7e2462!8m2!3d31.5203128!4d74.358902"
-                                   target="blank">
-                                    Lahore, Pakistan
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
-
-
-            </div>
-            <div class="column four wide   ">
-
-            </div>
-            <div class="column four wide  ">
-                <div class="ui middle aligned animated list">
-
-
-                    <div class="item">
-                        <i class="linkedin icon blue"></i>
-                        <div class="content">
-                            <div class="header">
-                                <a href="https://bit.ly/3aetEeN" target="blank"> LinkedIn </a>
-
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <i class="github icon  "></i>
-                        <div class="content">
-                            <div class="header">
-                                <a href="https://bit.ly/3fN4QeQ" target="blank"> Github </a>
-
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="item">
-                        <i class="stack overflow icon red"></i>
-                        <div class="content">
-                            <div class="header">
-                                <a href="https://bit.ly/3fN7gKG" target="blank"> Stack overflow</a>
-
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-
-        </div>
-
-
-        <br>
-        <br>
-        <!-- Technology Stack Section started -->
-
-        <h4 class="ui horizontal sub huge header divider">
-            <a>Tech Stack</a>
-        </h4>
-
-        <br>
-        <br>
-
-
-        <!-- NEW GRID  -->
-
-        <div class="ui stackable grid container">
-            <div class="two wide column ">
-                <div class="ui horizontal list">
-                    <div class="item">
-
-                        <div class="content">
-                            <div class="header ">Language</div>
-
-                            <ol class="ui middle aligned   animated list">
-
-
-                                <div class="item ">
-                                    <li value="-">
-                                        <div class="content ">
-                                            Python
-                                        </div>
-                                    </li>
-                                </div>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="two wide column ">
-                <div class="ui horizontal list">
-                    <div class="item">
-
-                        <div class="content">
-                            <div class="header">Database</div>
-
-                            <ol class="ui middle aligned animated list">
-
-
-                                <div class="item">
-                                    <li value="-">
-                                        <div class="content">
-                                            MongoDB
-                                        </div>
-                                    </li>
-                                </div>
-                                <div class="item">
-                                    <li value="-">
-                                        <div class="content">
-                                            PostgreSQL
-                                        </div>
-                                    </li>
-                                </div>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="two wide column ">
-                <div class="ui horizontal list">
-                    <div class="item">
-
-                        <div class="content">
-                            <div class="header">Cache</div>
-
-                            <ol class="ui middle aligned animated list">
-
-
-                                <div class="item">
-                                    <li value="-">
-                                        <div class="content">
-                                            Redis
-                                        </div>
-                                    </li>
-                                </div>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="two wide column ">
-                <div class="ui horizontal list">
-                    <div class="item">
-
-                        <div class="content">
-                            <div class="header">Web Framework</div>
-
-                            <ol class="ui middle aligned animated list">
-
-
-                                <div class="item">
-                                    <li value="-">
-                                        <div class="content">
-                                            Django
-                                        </div>
-                                    </li>
-                                </div>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="two wide column ">
-                <div class="ui horizontal list">
-                    <div class="item">
-
-                        <div class="content">
-                            <div class="header ">Message Queue</div>
-
-                            <ol class="ui middle aligned animated list">
-
-
-                                <div class="item">
-                                    <li value="-">
-                                        <div class="content ">
-                                            Apache Kafka
-                                        </div>
-                                    </li>
-                                </div>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="two wide column ">
-                <div class="ui horizontal list">
-                    <div class="item">
-
-                        <div class="content">
-                            <div class="header">Job Workflows</div>
-
-                            <ol class="ui middle aligned animated list">
-
-
-                                <div class="item">
-                                    <li value="-">
-                                        <div class="content">
-                                            Apache Airflow
-                                        </div>
-                                    </li>
-                                </div>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-
-        <br>
-
-
-        <h4 class="ui horizontal sub huge header divider" id="opensource">
-            <a>Interest</a>
-        </h4>
-
-        <br>
-        <br>
-
-
-        <div class="ui list medium very relaxed horizontal">
-
-
-            <div class="item ">Micro-services</div>
-            <div class="item ">System Design</div>
-
-
-            <div class="item ">Large Scale Distributed System</div>
-
-            <div class="item ">Real Time System</div>
-            <div class="item ">Stream Processing</div>
-            <div class="item ">Docker</div>
-            <div class="item ">Kubernetes</div>
-            <div class="item ">Web 3.0</div>
-            <div class="item ">Blockchain</div>
-            <div class="item ">AWS (Amazon Web Services)</div>
-
-
-        </div>
-
-
-        <br><br>
-
-
-        <h4 class="ui horizontal sub huge header divider">
-            <a>Work Experience</a>
-        </h4>
-
-
-        <br>
-        <br>
-
-
-        <div class="ui grid">
-            <div class="ten wide column">
-                <div class="ui items">
-                    <div class="item">
-
-                        <div class="content">
-
-
-                            <br>
-                            <div class="ui  header">
-
-
-                                <a class="header blue tiny ui ">PYTHON BACKEND DEVELOPER</a>
-
-                                <div class="ui sub header ">
-
-                                    <!--                                    <span>Pligence - Cyber Security</span>-->
-                                    <a href="https://pligence.com/" target="_blank">
-                                        <span>Pligence - Cyber Security</span>
-                                    </a>
-                                    <p>Lahore, Pakistan</p>
-                                    <span>October 1st, 2020 - Present </span>
-                                    <p>Years of Experience - 1.9+ years </p>
-
-
+                <div class="column three wide  ">
+                    <div class="ui middle aligned animated list">
+                        <div class="item">
+                            <i class="github icon  "></i>
+                            <div class="content">
+                                <div class="header">
+                                    <a href="https://bit.ly/3fN4QeQ" target="blank"> Github </a>
                                 </div>
                             </div>
-
-
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
-
-
-        </div>
-
-
-        <!--        job new temp-->
-        <div class="ui stackable grid faizan">
-            <div class="two wide column">
-            </div>
-            <div class="thirteen wide column">
-                <br>
-                <div class="header blue">
-                    <a class="header header-style"> Overview </a>
-                </div>
-                <div class="ui divider"></div>
-                <br>
-                <div class="description desc-style">
-                    I have been working on different projects, involve in System Design, building Synchronous and
-                    Asynchronous REST APIs,
-                    implemented near real-time use-cases, work with threat feeds, integrated Google Cloud Messaging
-                    service (FCM) with use-cases, automate the database backups and file migrations,
-                    collaborates with different teams, etc. And these are the techs and tools which I have been working
-                    with
-                    :
-
-                </div>
-
-                <!--                <div class="ui very relaxed horizontal list">-->
-                <!--                    <div class="item">-->
-                <!--                        <div class="content">-->
-                <!--                            <a class="header">Privacy Defender Application</a>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                    <div class="item">-->
-                <!--                        <div class="content">-->
-                <!--                            <a class="header">Threat Intelligence Platform</a>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                    <div class="item">-->
-                <!--                        <div class="content">-->
-                <!--                            <a class="header">Mongo Database Replication</a>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                    <div class="item">-->
-                <!--                        <div class="content">-->
-                <!--                            <a class="header">Database Backup and Migration</a>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                    <div class="item">-->
-                <!--                        <div class="content">-->
-                <!--                            <a class="header">* Real Time Code Monitoring</a>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-
-                <!--                </div>-->
-
-
-                <br>
-                <!--                <ul class="ui list">-->
-
-
-                <!--                    <li class="description desc-style">Build Use-Case pipelines which correlates user data with threats-->
-                <!--                        using-->
-                <!--                        Apache Kafka, Python, Mongo and Redis.-->
-                <!--                        Near Real time use-cases implemented on user activity events.-->
-
-                <!--                    </li>-->
-
-
-                <!--                    <li class="description desc-style">Wrote Synchronous Django REST APIs services which serves threats feed to Mobile-->
-                <!--                        Application, and as well as Asynchronous API which sends data to Queue for further processing.-->
-                <!--                    </li>-->
-
-
-                <!--                    <li class="description desc-style">Integrated Google FCM (Firebase Cloud Messaging) service for push notification-->
-                <!--                        for-->
-                <!--                        Mobile Application.-->
-
-
-                <!--                    </li>-->
-
-
-                <!--                    <li class="description desc-style">Python services which migrates threats related data from local servers to-->
-                <!--                        testing and production servers.-->
-                <!--                    </li>-->
-
-
-                <!--                    <li class="description desc-style">-->
-                <!--                        Integrated Socket.io library with Threat Intelligence Platform (Django & React) for push notification.-->
-                <!--                    </li>-->
-
-                <!--                    <li class="description desc-style">Three node (1 Primary, 2 Secondary ) Mongo replication implemented on-premises-->
-                <!--                        with team-mate.-->
-                <!--                    </li>-->
-
-                <!--                    <li class="description desc-style">Python services migrates backup files from remote server to local-->
-                <!--                        server and then share-server.-->
-                <!--                    </li>-->
-
-                <!--                    <li class="description desc-style">Wrote python ETL (Extraction,Transformation,Loading) pipelines for-->
-                <!--                        Threat Intelligence platform and as well as for Privacy Defender Application.-->
-                <!--                    </li>-->
-                <!--                    <li class="description desc-style">Python services which computes stats for TIP (Threat Intelligence Platform) Dashboard.-->
-                <!--                    </li>-->
-
-                <!--                    <li class="description desc-style">In which generic class injected into Python code which collects-->
-                <!--                        logging-->
-                <!--                        statement , ingest into-->
-                <!--                        Redis Queue, then python socket client read logs from Queue and send to front-end using-->
-                <!--                        Web-sockets.(Supporting Project)-->
-                <!--                    </li>-->
-
-
-                <!--                </ul>-->
-
-
-                <div class="ui horizontal list  ">
-                    <a class="item">
-                        <a class="ui blue basic label">Python</a>
-                    </a>
-                    <a class="item">
-                        <a class="ui blue basic label">Django</a>
-                    </a>
-                    <a class="item">
-                        <a class="ui blue basic label">Django REST framework</a>
-                    </a>
-                    <a class="item">
-                        <a class="ui blue basic label">Redis</a>
-                    </a>
-                    <a class="item">
-                        <a class="ui blue basic label">Apache Kafka</a>
-                    </a>
-                    <a class="item">
-                        <a class="ui blue basic label">MongoDB</a>
-                    </a>
-                    <a class="item">
-                        <a class="ui blue basic label">Apache Airflow</a>
-                    </a>
-                    <a class="item">
-                        <a class="ui blue basic label">Google FCM (Firebase Cloud Messaging)</a>
-                    </a>
-                    <a class="item">
-                        <a class="ui blue basic label">Docker and docker-compose</a>
-                    </a>
-                    <a class="item">
-                        <a class="ui blue basic label">Git</a>
-                    </a>
-                    <a class="item">
-                        <a class="ui blue basic label">GitHub</a>
-                    </a>
-                    <a class="item">
-                        <a class="ui blue basic label">NGINX</a>
-                    </a>
-                    <a class="item">
-                        <a class="ui blue basic label">PostgreSQL</a>
-                    </a>
-
-                    <a class="item">
-                        <a class="ui blue basic label">Celery</a>
-                    </a>
-                    <a class="item">
-                        <a class="ui blue basic label">Google compute engine : VM's</a>
-                    </a>
-                    <a class="item">
-                        <a class="ui blue basic label">Socket.io</a>
-                    </a>
-                    <a class="item">
-                        <a class="ui blue basic label">Bash</a>
-                    </a>
-                    <a class="item">
-                        <a class="ui blue basic label">Redis Pub/Sub</a>
-                    </a>
-                    <a class="item">
-                        <a class="ui blue basic label">Ubuntu</a>
-                    </a>
-                    <a class="item">
-                        <a class="ui blue basic label">Microsoft Planner</a>
-                    </a>
-
-                </div>
-                <br>
-                <br>
-
-            </div>
-
-            <div class="two wide column">
-            </div>
-
-
-        </div>
-
-
-        <!--        job new temp-->
-
-        <!--
-        University project and other stuff  -->
-
-        <div class="ui list">
-
             <br>
 
+            <div class="ui stackable grid container">
+                <div class="sixteen column ">
+                    <div id="main-menu" class="ui stackable horizontal text menu">
+                        <a class="item" href="#tech-stack">Tech Stack</a>
+                        <a class="item" href="#interest">Interest</a>
+                        <a class="item" href="#work-experience">Work Experience </a>
+                        <a class="item" href="#certificationsx">Certifications</a>
+                        <a class="item" href="#open-source">Open Source Projects</a>
+                        <a class="item" href="#university-work">University Work</a>
+                        <!-- <div class="ui dropdown item">
+                            <span>Table of Contents</span>
+                            <i class="dropdown icon"></i>
+                            <div class="menu">
+                                <a class="item" href="#tech-stack">Tech Stack</a>
+
+
+                                <a class="item" href="#tech-stack">Interest</a>
+
+
+
+                                <div class="ui dropdown item">
+                                    <span>Work Experience</span>
+                                    <i class="dropdown icon"></i>
+                                    <div class="menu">
+                                        <a class="item" href="#project1">SlashNext</a>
+                                        <a class="item" href="#project2">Pligence</a>
+                                    </div>
+                                </div>
+
+
+                                <div class="ui dropdown item">
+                                    <span>Open Source Projects</span>
+                                    <i class="dropdown icon"></i>
+                                    <div class="menu">
+                                        <a class="item" href="#project1">RealtimePyConfigSync</a>
+                                        <a class="item" href="#project2"> COVID-19 NEAR YOU </a>
+                                        <a class="item" href="#opne-source-project-3"> API Rate Limiter - Sliding Window
+                                            Counter
+                                            Algorithm </a>
+                                        <a class="item" href="#project2"> Portfolio database design </a>
+                                    </div>
+                                </div>
+
+
+                                <div class="ui dropdown item">
+                                    <span>Certifications</span>
+                                    <i class="dropdown icon"></i>
+                                    <div class="menu">
+                                        <a class="item" href="#project1">Apache Kafka - Confluent Fundamentals
+                                            Accreditation</a>
+                                        <a class="item" href="#project1"> Authentication & Authorization: OAuth</a>
+                                        <a class="item" href="#project1">AWS Cloud Practitioner Essentials</a>
+                                        <a class="item" href="#project1">Cloud Computing 101</a>
+                                        <a class="item" href="#project1">Getting started with Microservices with Istio
+                                            and IBM Cloud Kubernetes Service</a>
+                                        <a class="item" href="#project1">Reactive Architecture: Reactive Microservices
+                                        </a>
+                                        <a class="item" href="#project1">Docker Essentials: A Developer Introduction
+                                        </a>
+                                        <a class="item" href="#project1">Kubernetes for the Absolute Beginners </a>
+                                        <a class="item" href="#project1">12 Factor App </a>
+                                        <a class="item" href="#project1">GIT for Beginners </a>
+                                        <a class="item" href="#project1"> Redis Streams </a>
+                                        <a class="item" href="#project1">Amazon Elastic Container Service (AWS ECS) </a>
+                                        <a class="item" href="#project1">Redis for Python Developers </a>
+                                        <a class="item" href="#project1">Introduction to python</a>
+
+                                    </div>
+                                </div>
+
+                                <div class="ui dropdown item">
+                                    <span>University Work</span>
+                                    <i class="dropdown icon"></i>
+
+                                    <div class="menu">
+                                        <a class="item" href="#uni-1"> Right Now - Final year project </a>
+                                        <a class="item" href="#uni_2"> Phishing website Detection </a>
+                                        <a class="item" href="#uni_3"> Loan Prediction </a>
+                                        <a class="item" href="#uni_4"> Socket Programming </a>
+
+                                        <a class="item" href="#uni_5"> Green Veggies </a>
+                                        <a class="item" href="#uni_6"> Weather App </a>
+                                        <a class="item" href="#uni_7"> School Test System </a>
+                                        <a class="item" href="#uni_8"> Plant and Zombie Game and Car Android
+                                            Application </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Technology Stack Section started -->
 
             <h4 class="ui horizontal sub huge header divider">
-                <a>Open source projects</a>
+                <a id="tech-stack">Tech Stack</a>
             </h4>
             <br>
+            <!-- NEW GRID  -->
+            <div class="ui stackable grid container">
+                <div class="two wide column ">
+                    <div class="ui horizontal list">
+                        <div class="item">
+                            <div class="content">
+                                <div class="header ">Language</div>
+                                <ol class="ui middle aligned   animated list">
+                                    <div class="item ">
+                                        <li value="-">
+                                            <div class="content ">
+                                                Python
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <div class="item ">
+                                        <li value="-">
+                                            <div class="content ">
+                                                SQL
+                                            </div>
+                                        </li>
+                                    </div>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="two wide column ">
+                    <div class="ui horizontal list">
+                        <div class="item">
+                            <div class="content">
+                                <div class="header">Database</div>
+                                <ol class="ui middle aligned animated list">
+                                    <div class="item">
+                                        <li value="-">
+                                            <div class="content">
+                                                MongoDB
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <div class="item">
+                                        <li value="-">
+                                            <div class="content">
+                                                PostgreSQL
+                                            </div>
+                                        </li>
+                                    </div>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="two wide column ">
+                    <div class="ui horizontal list">
+                        <div class="item">
+                            <div class="content">
+                                <div class="header">Cache</div>
+                                <ol class="ui middle aligned animated list">
+                                    <div class="item">
+                                        <li value="-">
+                                            <div class="content">
+                                                Redis
+                                            </div>
+                                        </li>
+                                    </div>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="two wide column ">
+                    <div class="ui horizontal list">
+                        <div class="item">
+                            <div class="content">
+                                <div class="header">Web Framework</div>
+                                <ol class="ui middle aligned animated list">
+                                    <div class="item">
+                                        <li value="-">
+                                            <div class="content">
+                                                Flask, Django
+                                            </div>
+                                        </li>
+                                    </div>
+                                    <div class="item">
+                                        <li value="-">
+                                            <div class="content">
+                                                FastAPI
+                                            </div>
+                                        </li>
+                                    </div>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="two wide column ">
+                    <div class="ui horizontal list">
+                        <div class="item">
+
+                            <div class="content">
+                                <div class="header ">Message Queue</div>
+                                <ol class="ui middle aligned animated list">
+                                    <div class="item">
+                                        <li value="-">
+                                            <div class="content ">
+                                                Apache Kafka
+                                            </div>
+                                        </li>
+                                    </div>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="two wide column ">
+                    <div class="ui horizontal list">
+                        <div class="item">
+                            <div class="content">
+                                <div class="header">Job Workflows</div>
+                                <ol class="ui middle aligned animated list">
+                                    <div class="item">
+                                        <li value="-">
+                                            <div class="content">
+                                                Apache Airflow
+                                            </div>
+                                        </li>
+                                    </div>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="two wide column ">
+                    <div class="ui horizontal list">
+                        <div class="item">
+                            <div class="content">
+                                <div class="header ">Cloud Services</div>
+                                <ol class="ui middle aligned animated list">
+                                    <div class="item">
+                                        <li value="-">
+                                            <div class="content ">
+                                                AWS*
+                                            </div>
+                                        </li>
+                                    </div>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="two wide column ">
+                    <div class="ui horizontal list">
+                        <div class="item">
+                            <div class="content">
+                                <div class="header ">Containerization</div>
+                                <ol class="ui middle aligned animated list">
+                                    <div class="item">
+                                        <li value="-">
+                                            <div class="content ">
+                                                Docker & Docker-compose
+                                            </div>
+                                        </li>
+                                    </div>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
             <br>
 
-            <!--      new open source projects      -->
+            <div class="ui horizontal   list  ">
+                <a class="item">
+                    <a class="ui blue basic label">AWS Lambda Function</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue basic label">AWS EC2</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue basic label">Celery</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue basic label">Redis Stream</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue basic label">Celery Flower</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue basic label">AWS CloudWatch</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue basic label">Bash</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue basic label">Rsync</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue basic label">Confluence</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue basic label">JIRA</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue basic label">Bitbucket</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue basic label">GitHub</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue basic label">NGINX</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue basic label">Synchronous and Asynchronous REST APIs</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue   basic  label">JWT</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue basic label">Django REST framework</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue basic label">Socket.io</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue basic label">Redis Pub/Sub</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue basic label">Linux (Ubuntu)</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue   basic  label">Leaflet Maps </a>
+                </a>
+                <a class="item space">
+                    <a class="ui blue  basic   label">Anymail API</a>
+                </a>
+                <a class="item space">
+                    <a class="ui blue  basic   label">Oauth</a>
+                </a>
+                <a class="item">
+                    <a class="ui blue basic label">Google Compute Engine</a>
+                </a>
+                <a class="item space">
+                    <a class="ui blue   basic  label">Geo-spatial data </a>
+                </a>
+                <a class="item">
+                    <a class="ui blue basic label">Google Firebase Cloud Messaging</a>
+                </a>
+            </div>
+
+
+            <h4 class="ui horizontal sub huge header divider" id="opensource">
+                <a id="interest">Interest</a>
+            </h4>
+
+            <br>
+            <div class="ui list medium very relaxed horizontal">
+                <div class="item ">Microservices</div>
+                <div class="item ">Distributed System</div>
+                <div class="item ">Stream Processing</div>
+                <div class="item ">Docker</div>
+                <div class="item ">Kubernetes</div>
+                <div class="item ">AWS (Amazon Web Services)</div>
+            </div>
+            <br>
+            <h4 class="ui horizontal sub huge header divider">
+                <a id="work-experience">Work Experience</a>
+            </h4>
+
+            <br>
+            <div class="ui grid">
+                <div class="ten wide column">
+                    <div class="ui items">
+                        <div class="item">
+                            <div class="content">
+                                <br>
+                                <div class="ui  header">
+                                    <a class="header blue tiny ui ">SENIOR PYTHON BACKEND ENGINEER </a>
+                                    <div class="ui sub header ">
+                                        <a href="https://slashnext.com/" target="_blank">
+                                            <span>SlashNext</span>
+                                        </a>
+                                        <p></p>
+                                        <span>October 2022 - Present </span>
+                                        <p>Years of Experience - 2 years 5 month </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--        SlashNext Experience-->
             <div class="ui stackable grid faizan">
 
-                <div class="two wide column">
-                </div>
-                <div class="twelve wide column">
-                    <br><br>
-                    <div class="header blue">
-                        <a class="header header-style">COVID-19 NEAR YOU </a>
-                    </div>
-
-                    <div class="ui divider"></div>
-
+                <div class="sixteen wide column">
                     <br>
-
-                    <div class="description desc-style">
-                        Finds confirmed cases in 1,2 and 3 km and quarantine center in 10 Km radius range
-                        based
-                        on user given location, give some useful advice and informational links, and
-                        help
-                        officials to control covid19 transmission.
-
-
+                    <div class="header blue">
+                        <a class="header header-style"> Overview </a>
                     </div>
+                    <div class="ui divider"></div>
+                    <br>
+                    <div class="description desc-style">
+                        <p> - <b>Proposed, implemented, and open-sourced</b> a wrapper project under the MIT license
+                            that enables <b>real-time</b> configuration synchronization in Python long-running processes
+                            using etcd3, eliminating the need for periodic calls every x seconds.
+                        </p>
 
+                        <p>-<b> Co-Led</b> the <b>re-architecture</b> of services code to integrate Celery,
+                            <b>optimizing</b> the Mailbox processing service. Leveraged Celery’s multi-processing,
+                            auto-scaling, and load distribution features to address memory management issues, enhance
+                            fault tolerance, and <b>reduce infrastructure costs</b>.
+                        </p>
+                        <p>- <b>Optimized</b> the Mailbox distribution algorithm to reduce overall email processing time
+                            and leveraged underutilized Python processes to enhance <b>hardware resource
+                                utilization</b>.
+                        </p>
 
+                        <p>- <b>Led the migration</b> of services from <b>Python 2.7</b> to <b>Python 3.8</b> ,
+                            designing and developing internal APIs with <b>FastAPI</b> while seamlessly integrating new
+                            features into existing Flask APIs. Streamlined the codebase by deprecating obsolete features
+                            and performing impact analysis to ensure the smooth operation of both legacy and new
+                            functionalities.
+                        </p>
+
+                        <p>- <b>Developed</b> FNFP project scripts to extract and enrich log data from <b>AWS
+                                CloudWatch</b> , providing valuable insights for cross-team analysis.
+                        </p>
+                    </div>
+                    <br>
                     <div class="ui horizontal list  ">
                         <a class="item">
-                            <a class="ui blue basic label">Django</a>
+                            <a class="ui blue basic label">Python</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">AWS CloudWatch</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">Flask</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">FastAPI</a>
                         </a>
                         <a class="item">
                             <a class="ui blue basic label">Redis</a>
                         </a>
+
                         <a class="item">
-                            <a class="ui blue basic label">MySQL</a>
-                        </a>
-                        <a class="item">
-                            <a class="ui blue basic label">Leaflet Maps</a>
-                        </a>
-                        <a class="item">
-                            <a class="ui blue basic label">Semantic UI</a>
-                        </a>
-                        <a class="item">
-                            <a class="ui blue basic label">Jquery</a>
-                        </a>
-                        <a class="item">
-                            <a class="ui blue basic label">MIT license</a>
+                            <a class="ui blue basic label">MongoDB</a>
                         </a>
 
+                        <a class="item">
+                            <a class="ui blue basic label">Docker and docker-compose</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">Git</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">Bitbucket</a>
+                        </a>
+
+                        <a class="item">
+                            <a class="ui blue basic label">MYSQL</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">Redis Stream</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">Celery</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">AWS EC2</a>
+                        </a>
+
+                        <a class="item">
+                            <a class="ui blue basic label">Bash</a>
+                        </a>
+
+                        <a class="item">
+                            <a class="ui blue basic label">Linux</a>
+                        </a>
                     </div>
-
                     <br>
-                    <br>
-                    <div class="ui accordion">
-                        <div class="title">
-                            <i class="dropdown icon"></i>
-                            Read more
+                </div>
+            </div>
+
+            <br><br>
+            <!--        Pligence Experience-->
+            <div class="ui grid">
+                <div class="ten wide column">
+                    <div class="ui items">
+                        <div class="item">
+                            <div class="content">
+                                <br>
+                                <div class="ui  header">
+                                    <a class="header blue tiny ui ">PYTHON BACKEND DEVELOPER</a>
+                                    <div class="ui sub header ">
+                                        <!--                                    <span>Pligence - Cyber Security</span>-->
+                                        <a href="https://pligence.com/" target="_blank">
+                                            <span>Pligence - Cyber Security</span>
+                                        </a>
+                                        <p></p>
+                                        <span>October 2020 - October 2022 </span>
+                                        <p>Years of Experience - 2 years </p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="content">
-                            <p class="transition hidden">
-
-                            <ol>
-                                <li>Find the user's zone if they are in the Red, Yellow, or grey zone based on
-                                    the confirmed case around them.
-                                </li>
-
-                                <li>Advise people on what they should do or not if they are in the
-                                    infected region or not.
-                                </li>
-
-                                <li>Show clusters of COVID-19 regions for officials to take the right
-                                    decisions. And for the public to take appropriate precautions.
-                                    Officials can
-                                    <ul>
-                                        <li>Easily identify infected regions, and then impose lockdown
-                                            and run an awareness campaign.
-                                        </li>
-                                        <li>(Local authorities) can take quick and real-time
-                                            decisions.
-                                        </li>
-                                        <li>Identify those regions where no of cases increasing.</li>
-                                    </ul>
-                                </li>
-                                <li>Show nearest confirmed case and Quarantine center point (address,
-                                    distance (from user location), and radius range).
-                                </li>
-                                <li>Show the total no of confirmed cases and no of points in different
-                                    ranges around the user.
-                                </li>
-                                <li>Provides WHO (World Health Organization) and National website links
-                                    for the latest information and some other useful links
-                                    <ul>
-                                        <li>Myth busters</li>
-                                        <li>When and how to use masks</li>
-                                        <li>Advice for public</li>
-                                        <li>Advocacy</li>
-                                    </ul>
-                                </li>
-                                <li>Users can also check other regions in case of if they wanna go or
-                                    someone coming from the infected region based on the result they
-                                    will take the right decision and appropriate precautions.
-                                </li>
-                            </ol>
-
-                            If people already know about infected regions and people of these regions
-                            transmitting the virus, then they will avoid them, (infected regions and
-                            their
-                            people
-                            as well) so they will be taking the necessary precautions.
-                            <a href="https://faizanfareed.github.io/covid19-near-you/" target="blank">Read
-                                more
-                            </a>
-                            <br><br>
-                            <p>
-                                <b>REST API</b> module is for mobile application and secured from
-                                distributed
-                                denial-of-service (DDoS) attack using API rate limiter.
-                            </p>
-
-                            <p>
-                                <b>Redis</b> in-memory database is used for the high availability of the
-                                application and provides very low latency.
-                            </p>
-
-                            <p><b>Authentication and Authorization</b> feature for staff members e.g. if
-                                multiple laboratories upload confirmed cases of covid19.
-                            </p>
-
-
-                            </p>
-                        </div>
-
-
                     </div>
+                </div>
+            </div>
+            <br>
+            <!--        job new temp-->
+            <div class="ui stackable grid faizan">
 
-
+                <div class="sixteen wide column">
                     <br>
-                    <a href="https://github.com/FaizanFareed/covid19-near-you" target="blank">View
-                        source
-                        code
-                        on Github</a>
-
-
-                </div>
-
-                <div class="two wide column">
-                </div>
-
-
-                <div class="two wide column">
-                </div>
-                <div class="twelve wide column">
-                    <br><br>
                     <div class="header blue">
-                        <a class="header header-style">API Rate Limiter - Sliding Window Counter Algorithm </a>
+                        <a class="header header-style"> Overview </a>
+                    </div>
+                    <div class="ui divider"></div>
+                    <br>
+                    <div class="description desc-style">
+                        <p>- <b>Introduced Apache Kafka</b> into the system to enhance <b>fault tolerance</b> and
+                            <b>scalability</b>, implementing <b>near-real-time</b> use cases in conjunction with Redis.
+                        </p>
+                        <p>- <b>Redesigned</b> and <b>transitioned</b> the services from monolithic to <b>microservices
+                                architecture</b> to address deployment challenges and improve codebase maintenance.
+                        </p>
+
+                        <p>- <b>Implemented</b> Docker-based <b>containerization</b> by migrating most services to
+                            Docker and deploying multiple Redis instances within Docker containers to improve system
+                            fault tolerance and address downtime issues.
+                        </p>
+                        <p>- <b>Developed</b> ETL Data Pipelines from <b>scratch</b> for threat feed processing,
+                            providing IOC to APIs at <b>low latency</b> using Redis caching. Utilized Python, Redis,
+                            MongoDB, PostgreSQL, and <b>Apache Airflow</b> to ensure efficient data handling for mobile
+                            applications and a threat intelligence platform.
+                        </p>
+                        <p>- <b>Developed</b> a Syslogs Parsing Service from <b>scratch</b> to extract and analyze
+                            inbound and outbound traffic, compare it with IOCs, and push matching events over the
+                            <b>sockets</b> for <b>real-time notifications</b> to the Threat Intelligence Platform.
+                        </p>
+                        <p>- <b>Implemented MongoDB Replication</b> to support event replication through Apache Kafka
+                            and created backup data migration scripts to transfer data from <b>Google Cloud</b> to
+                            <b>on-premises</b> storage.
+                        </p>
+                        <p>- Maintained and Enhanced Django REST Framework APIs, integrating new features and performing
+                            deployments and testing. Managed SSL certificate rotation and set up a local testing
+                            environment on on-premises cloud infrastructure.
+                        </p>
                     </div>
 
-                    <div class="ui divider"></div>
+                    <!--                <div class="ui very relaxed horizontal list">-->
+                    <!--                    <div class="item">-->
+                    <!--                        <div class="content">-->
+                    <!--                            <a class="header">Privacy Defender Application</a>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="item">-->
+                    <!--                        <div class="content">-->
+                    <!--                            <a class="header">Threat Intelligence Platform</a>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="item">-->
+                    <!--                        <div class="content">-->
+                    <!--                            <a class="header">Mongo Database Replication</a>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="item">-->
+                    <!--                        <div class="content">-->
+                    <!--                            <a class="header">Database Backup and Migration</a>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="item">-->
+                    <!--                        <div class="content">-->
+                    <!--                            <a class="header">* Real Time Code Monitoring</a>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+
+                    <!--                </div>-->
+
 
                     <br>
+                    <!--                <ul class="ui list">-->
 
-                    <div class="description desc-style">
-                        To protect API from DDoS attacks, avoid spikes in traffic,
-                        running API efficiently and for API scalability rate limiter component is
-                        essential.
-                        Python sliding window counter API rate limiter using Redis.
 
-                    </div>
+                    <!--                    <li class="description desc-style">Build Use-Case pipelines which correlates user data with threats-->
+                    <!--                        using-->
+                    <!--                        Apache Kafka, Python, Mongo and Redis.-->
+                    <!--                        Near Real time use-cases implemented on user activity events.-->
+
+                    <!--                    </li>-->
+
+
+                    <!--                    <li class="description desc-style">Wrote Synchronous Django REST APIs services which serves threats feed to Mobile-->
+                    <!--                        Application, and as well as Asynchronous API which sends data to Queue for further processing.-->
+                    <!--                    </li>-->
+
+
+                    <!--                    <li class="description desc-style">Integrated Google FCM (Firebase Cloud Messaging) service for push notification-->
+                    <!--                        for-->
+                    <!--                        Mobile Application.-->
+
+
+                    <!--                    </li>-->
+
+
+                    <!--                    <li class="description desc-style">Python services which migrates threats related data from local servers to-->
+                    <!--                        testing and production servers.-->
+                    <!--                    </li>-->
+
+
+                    <!--                    <li class="description desc-style">-->
+                    <!--                        Integrated Socket.io library with Threat Intelligence Platform (Django & React) for push notification.-->
+                    <!--                    </li>-->
+
+                    <!--                    <li class="description desc-style">Three node (1 Primary, 2 Secondary ) Mongo replication implemented on-premises-->
+                    <!--                        with team-mate.-->
+                    <!--                    </li>-->
+
+                    <!--                    <li class="description desc-style">Python services migrates backup files from remote server to local-->
+                    <!--                        server and then share-server.-->
+                    <!--                    </li>-->
+
+                    <!--                    <li class="description desc-style">Wrote python ETL (Extraction,Transformation,Loading) pipelines for-->
+                    <!--                        Threat Intelligence platform and as well as for Privacy Defender Application.-->
+                    <!--                    </li>-->
+                    <!--                    <li class="description desc-style">Python services which computes stats for TIP (Threat Intelligence Platform) Dashboard.-->
+                    <!--                    </li>-->
+
+                    <!--                    <li class="description desc-style">In which generic class injected into Python code which collects-->
+                    <!--                        logging-->
+                    <!--                        statement , ingest into-->
+                    <!--                        Redis Queue, then python socket client read logs from Queue and send to front-end using-->
+                    <!--                        Web-sockets.(Supporting Project)-->
+                    <!--                    </li>-->
+
+
+                    <!--                </ul>-->
 
 
                     <div class="ui horizontal list  ">
@@ -828,974 +773,1115 @@
                             <a class="ui blue basic label">Python</a>
                         </a>
                         <a class="item">
+                            <a class="ui blue basic label">Django</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">Django REST framework</a>
+                        </a>
+                        <a class="item">
                             <a class="ui blue basic label">Redis</a>
                         </a>
                         <a class="item">
-                            <a class="ui blue basic label">MIT license</a>
-                        </a>
-
-                    </div>
-                    <br>
-                    <br>
-                    <div class="ui accordion">
-                        <div class="title">
-                            <i class="dropdown icon"></i>
-                            Read more
-                        </div>
-                        <div class="content">
-                            <p class="transition hidden">
-
-                            <p>
-                                Compare to other rate limit algorithms sliding window counter is
-                            </p>
-                            <ol>
-                                <li>
-                                    Avoid spikes (Smooth out brust)
-                                </li>
-                                <li>Memory efficient</li>
-
-
-                            </ol>
-                            <p>
-                                Rate limit strategies allowed in this algorithm
-                            </p>
-                            <ol>
-                                <li>
-                                    N requests per second.
-                                </li>
-                                <li>N requests per minute</li>
-                                <li>N requests per hour</li>
-
-
-                            </ol>
-
-                            <p>
-                                Rate limit HTTP headers allowed in this algorithm
-                            </p>
-                            <ol>
-                                <li>
-                                    X-RateLimit-Limit
-                                </li>
-                                <li>X_RateLimit_Remaining</li>
-                                <li>X-RateLimit-Reset</li>
-                                <li>Retry-after</li>
-
-
-                            </ol>
-
-                            Optional parameters can be passed to the rate limiter when the first-time rate
-                            limiter
-                            initialized. These parameters are used for performance and to reduce memory
-                            usage.
-
-                            </a>
-                            </p>
-                        </div>
-
-
-                    </div>
-
-                    <br>
-                    <a href="https://github.com/faizanfareed/python-sliding-window-counter-rate-limiter"
-                       target="blank">View
-                        source code on Github</a>
-                </div>
-
-                <div class="two wide column">
-                </div>
-
-
-                <div class="two wide column">
-                </div>
-                <div class="twelve wide column">
-                    <br><br>
-                    <div class="header blue">
-                        <a class="header header-style"> Portfolio database design</a>
-                    </div>
-
-                    <div class="ui divider"></div>
-
-                    <br>
-
-                    <div class="description desc-style">
-                        Personal Portfolio database design Entity relationship diagram.
-
-                    </div>
-
-
-                    <div class="ui horizontal list  ">
-                        <a class="item">
-                            <a class="ui blue basic label">SQL Script</a>
+                            <a class="ui blue basic label">Apache Kafka</a>
                         </a>
                         <a class="item">
-                            <a class="ui blue basic label">ERD Diagram</a>
+                            <a class="ui blue basic label">MongoDB</a>
                         </a>
-
+                        <a class="item">
+                            <a class="ui blue basic label">Apache Airflow</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">Google FCM (Firebase Cloud Messaging)</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">Docker and docker-compose</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">Git</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">GitHub</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">NGINX</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">PostgreSQL</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">Celery</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">Google compute engine : VM's</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">Socket.io</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">Bash</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">Redis Pub/Sub</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">Ubuntu</a>
+                        </a>
+                        <a class="item">
+                            <a class="ui blue basic label">Microsoft Planner</a>
+                        </a>
                     </div>
-                    <br><br>
-
-
-                    <a href="https://github.com/faizanfareed/Personal-portfolio-database-design-ERD-"
-                       target="blank">View
-                        source
-                        code on Github</a>
+                    <br>
+                    <br>
                 </div>
+            </div>
+            <br>
+            <h4 class="ui horizontal sub huge header  divider ">
+                <a id="certificationsx">Licenses & certifications</a>
+            </h4>
 
-                <div class="two wide column">
+            <div class="ui stackable grid faizan">
+                <div class="sixteen wide column">
+                    <br>
+                    <div class="ui  header">
+                        <img class="ui top aligned tiny circular image"
+                            src="https://media.licdn.com/dms/image/v2/C560BAQG-V4d52WYJjA/company-logo_200_200/company-logo_200_200/0/1654720560248/confluent_logo?e=1746662400&v=beta&t=Q_DrY7FDvPE-eeGFfkFHpSEnZfbc3_h2D-wgCME7Nb4">
+                        <a href="https://certificates.confluent.io/f93e10c1-3a24-4f4c-97f0-9c082fe95916"
+                            target="_blank"> Apache Kafka - Confluent
+                            Fundamentals Accreditation</a>
+                        <div class="ui sub header ">
+                            <span>Confluent</span>
+                            <p>Issued Nov 2014</p>
+                        </div>
+                    </div>
+
+                    <div class="ui  header">
+                        <img class="ui top aligned tiny circular image"
+                            src="https://media.licdn.com/dms/image/v2/C560BAQHiNYfm0YHKrg/company-logo_200_200/company-logo_200_200/0/1656621848677/udacity_logo?e=1746662400&v=beta&t=av0kvs_2pF5zygStY9m8pDnyDnXkaPmczgfh5O19m_A">
+                        <a href="https://www.udacity.com/course/authentication-authorization-oauth--ud330"
+                            target="_blank"> Authentication &
+                            Authorization: OAuth</a>
+                        <div class="ui sub header ">
+                            <span>Udacity</span>
+                            <p>Issued OCT 2024</p>
+                        </div>
+                    </div>
+
+
+                    <div class="ui  header">
+                        <img class="ui top aligned tiny circular image"
+                            src="https://media.licdn.com/dms/image/v2/C4E0BAQFUctPVNz4kJQ/company-logo_200_200/company-logo_200_200/0/1660624612113/kodekloud_logo?e=1746662400&v=beta&t=ko316hMnHgel3dKgXYbQOW2HhnSYfrSd-w-hxIvcvCc">
+                        <a href="https://learn.kodekloud.com/certificate/42fab0ae-e353-42bd-935d-f4adfdd2ce20"
+                            target="_blank"> Golang</a>
+                        <div class="ui sub header ">
+                            <span>KodeKloud</span>
+                            <p>Issued SEP 2024</p>
+                        </div>
+                    </div>
+
+                    <div class="ui  header">
+                        <img class="ui top aligned tiny circular image"
+                            src="https://media.licdn.com/dms/image/v2/D4D0BAQEKiW5_y2z8Pw/company-logo_200_200/company-logo_200_200/0/1730289620977/w3schoolscom_logo?e=1746662400&v=beta&t=i0Ad-FrwHbHgRSUoPx4oZUE2lesqlY3FN3AbxGCVTLQ">
+                        <a href="https://verify.w3schools.com/1OW7CJD6TI" target="_blank"> AWS Cloud Practitioner
+                            Essentials</a>
+                        <div class="ui sub header ">
+                            <span>W3Schools</span>
+                            <p>Issued JUN 2024</p>
+                        </div>
+                    </div>
+
+                    <div class="ui  header">
+                        <img class="ui top aligned tiny circular image"
+                            src="https://media.licdn.com/dms/image/v2/C560BAQER_QnUTXrPJw/company-logo_200_200/company-logo_200_200/0/1670264051233/amazon_web_services_logo?e=1746662400&v=beta&t=MjtLMxbczEo9nrRXbK9DTRRHAslD1Js2Dv46z-lVrdY">
+                        <a href="https://www.credly.com/badges/86d5c6e0-4b38-4457-89e4-f85708838afc/public_url"
+                            target="_blank"> Cloud Computing 101</a>
+                        <div class="ui sub header ">
+                            <span>Amazon Web Services (AWS)</span>
+                            <p>Issued MAY 2024</p>
+                        </div>
+                    </div>
+
+                    <div class="ui  header">
+                        <img class="ui top aligned tiny circular image"
+                            src="https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_200_200/company-logo_200_200/0/1688684715866/ibm_logo?e=1746662400&v=beta&t=oZZ5yREaYfWNAkWzx4SxeOq_sH4xyj9pDLXnNeMX_sw">
+                        <a href="https://courses.cognitiveclass.ai/certificates/2318de968c24402eb2c9bf7078b8b4a0"
+                            target="_blank"> Getting started with Microservices with Istio and IBM Cloud
+                            Kubernetes Service</a>
+                        <div class="ui sub header ">
+                            <span>IBM</span>
+                            <p>Issued DEC 2023</p>
+                        </div>
+                    </div>
+
+                    <div class="ui  header">
+                        <img class="ui top aligned tiny circular image"
+                            src="https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_200_200/company-logo_200_200/0/1688684715866/ibm_logo?e=1746662400&v=beta&t=oZZ5yREaYfWNAkWzx4SxeOq_sH4xyj9pDLXnNeMX_sw">
+                        <a href="https://courses.cognitiveclass.ai/certificates/03228c7f2cad4482a9b317d69b557883"
+                            target="_blank"> Reactive Architecture: Reactive Microservices </a>
+                        <div class="ui sub header ">
+                            <span>IBM</span>
+                            <p>Issued DEC 2023</p>
+                        </div>
+                    </div>
+
+                    <div class="ui  header">
+                        <img class="ui top aligned tiny circular image"
+                            src="https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_200_200/company-logo_200_200/0/1688684715866/ibm_logo?e=1746662400&v=beta&t=oZZ5yREaYfWNAkWzx4SxeOq_sH4xyj9pDLXnNeMX_sw">
+                        <a href="https://courses.cognitiveclass.ai/certificates/6a545cf1aacd4a5db22ea68090202453"
+                            target="_blank"> Docker Essentials: A Developer Introduction </a>
+                        <div class="ui sub header ">
+                            <span>IBM</span>
+                            <p>Issued DEC 2023</p>
+                        </div>
+                    </div>
+
+                    <div class="ui  header">
+                        <img class="ui top aligned tiny circular image"
+                            src="https://media.licdn.com/dms/image/v2/C4E0BAQFUctPVNz4kJQ/company-logo_200_200/company-logo_200_200/0/1660624612113/kodekloud_logo?e=1746662400&v=beta&t=ko316hMnHgel3dKgXYbQOW2HhnSYfrSd-w-hxIvcvCc">
+                        <a href="https://kodekloud.com/certificate-verification/7A33874BA0-781511AD01-780F85D678/"
+                            target="_blank"> Kubernetes for the Absolute Beginners </a>
+                        <div class="ui sub header ">
+                            <span>KodeKloud</span>
+                            <p>Issued SEP 2023</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="ui  header">
+                        <img class="ui top aligned tiny circular image"
+                            src="https://media.licdn.com/dms/image/v2/C4E0BAQFUctPVNz4kJQ/company-logo_200_200/company-logo_200_200/0/1660624612113/kodekloud_logo?e=1746662400&v=beta&t=ko316hMnHgel3dKgXYbQOW2HhnSYfrSd-w-hxIvcvCc">
+                        <a href="" target="_blank"> 12 Factor App </a>
+                        <div class="ui sub header ">
+                            <span>KodeKloud</span>
+                            <p>Issued APRIL 2023</p>
+                        </div>
+                    </div>
+
+                    <div class="ui  header">
+                        <img class="ui top aligned tiny circular image"
+                            src="https://media.licdn.com/dms/image/v2/C4E0BAQFUctPVNz4kJQ/company-logo_200_200/company-logo_200_200/0/1660624612113/kodekloud_logo?e=1746662400&v=beta&t=ko316hMnHgel3dKgXYbQOW2HhnSYfrSd-w-hxIvcvCc">
+                        <a href="https://kodekloud.com/certificate-verification/7A33874BA0-7815028F70-780F85D678/"
+                            target="_blank"> GIT for Beginners </a>
+                        <div class="ui sub header ">
+                            <span>KodeKloud</span>
+                            <p>Issued APRIL 2023</p>
+                        </div>
+                    </div>
+
+                    <div class="ui  header">
+                        <img class="ui top aligned tiny circular image"
+                            src="https://media.licdn.com/dms/image/v2/D560BAQEAemwUFIpC7Q/company-logo_200_200/company-logo_200_200/0/1712604405723/redisinc_logo?e=1746662400&v=beta&t=KfcpETvdAI7NZBBAK5RzZ4FYb7J9zzVntdi9Be3dswY">
+                        <a href="https://university.redis.com/certificates/4cbda9debfcb4010a58f6ce9e8b4804c"
+                            target="_blank"> Redis Streams </a>
+                        <div class="ui sub header ">
+                            <span>Redis</span>
+                            <p>Issued MARCH 2023</p>
+                        </div>
+                    </div>
+
+                    <div class="ui  header">
+                        <img class="ui top aligned tiny circular image"
+                            src="https://media.licdn.com/dms/image/v2/C4E0BAQFUctPVNz4kJQ/company-logo_200_200/company-logo_200_200/0/1660624612113/kodekloud_logo?e=1746662400&v=beta&t=ko316hMnHgel3dKgXYbQOW2HhnSYfrSd-w-hxIvcvCc">
+                        <a href="https://kodekloud.com/certificate-verification/7A33874BA0-2D0AED70CDAC-780F85D678/"
+                            target="_blank"> Amazon Elastic Container Service (AWS ECS) </a>
+                        <div class="ui sub header ">
+                            <span>KodeKloud</span>
+                            <p>Issued JAN 2023</p>
+                        </div>
+                    </div>
+
+                    <div class="ui  header">
+                        <img class="ui top aligned tiny circular image"
+                            src="https://media.licdn.com/dms/image/v2/D560BAQEAemwUFIpC7Q/company-logo_200_200/company-logo_200_200/0/1712604405723/redisinc_logo?e=1746662400&v=beta&t=KfcpETvdAI7NZBBAK5RzZ4FYb7J9zzVntdi9Be3dswY">
+                        <a href="https://university.redis.com/certificates/e1c84b1e1ca64f66be5d3f8359e2fed6"
+                            target="_blank"> Redis for Python Developers </a>
+                        <div class="ui sub header ">
+                            <span>Redis</span>
+                            <p>Issued JAN 2023</p>
+                        </div>
+                    </div>
+
+
+                    <div class="ui  header">
+                        <img class="ui top aligned tiny circular image"
+                            src="https://media.licdn.com/dms/image/v2/C4D0BAQHoE9F6A76mOQ/company-logo_200_200/company-logo_200_200/0/1630577190840/datacampinc_logo?e=1746662400&v=beta&t=pEB-I5XqP-5ZpTqyLPJ60EOfOxbjEvCBTCwigEjGAkY">
+                        <a href="https://www.datacamp.com/statement-of-accomplishment/course/8c3466f7bad83796fc77f85471dc85b913f01162?raw=1"
+                            target="_blank"> Introduction to python</a>
+                        <div class="ui sub header ">
+                            <span>DataCamp</span>
+                            <p>Issued Sep 2018</p>
+                        </div>
+                    </div>
+                    <br>
                 </div>
-
-
             </div>
 
-            <!--            new open source projects-->
+
+            <!--        job new temp-->
+
+            <!--
+        University project and other stuff  -->
+
+            <div class="ui list">
+                <h4 class="ui horizontal sub huge header divider">
+                    <a id="open-source">Open source projects</a>
+                </h4>
+                <!--      new open source projects      -->
+                <div class="ui stackable grid faizan">
+                    <!--                    ETCD3-->
+                    <div class="sixteen wide column">
+                        <br><br>
+                        <div class="header blue">
+                            <a class="header header-style">RealtimePyConfigSync </a>
+                        </div>
+                        <div class="ui divider"></div>
+                        <br>
+                        <div class="description desc-style">
+                            <p> Real-time detection and loading of dynamic configuration changes from an etcd database
+                                to a Python process.
+                            </p>
+                            <p> Instead of <b>periodically pooling</b> configurations from a database at <b>fixed
+                                    intervals</b>, we can utilize etcd database to <b>watch</b> for changes on specific
+                                keys (configs). Whenever new changes occur on these keys, the etcd server will
+                                <b>push</b> those changes to the client, and then react on them accordingly.
+                            </p>
+                        </div>
+                        <div class="ui horizontal list  ">
+                            <a class="item">
+                                <a class="ui blue basic label">Python</a>
+                            </a>
+                            <a class="item">
+                                <a class="ui blue basic label">etcd</a>
+                            </a>
+                            <a class="item">
+                                <a class="ui blue basic label">Etcd Manager</a>
+                            </a>
+                            <a class="item">
+                                <a class="ui blue basic label">MIT license</a>
+                            </a>
+                        </div>
+                        <br>
+                        <br>
+                        <div class="ui accordion">
+                            <div class="title">
+                                <i class="dropdown icon"></i>
+                                Read more
+                            </div>
+                            <div class="content">
+                                <p class="transition hidden">
+                                <p> Under the hood, it utilizes the <b>python-etcd3</b> library, which provides a
+                                    callback method to listen for changes on keys.</p>
+
+                                <b>Here are some additions made :</b>
+
+                                <ul>
+                                    <li>No <b>boilerplate</b> code is required.</li>
+
+                                    <li>There is no need to manually define which callback function type needs to be
+                                        bound.</li>
+                                    <li> It provides a <b>JSON deserializer</b> by default, but you can define your own
+                                        deserialization logic based on your requirements.
+                                    </li>
+                                    <li> It supports auto-reconnection with etcd in case of a connection failure.
+                                    </li>
+                                    <li> You can specify the number of <b>connection retries</b> and the <b>retry
+                                            delay</b>.
+                                    </li>
+                                    <li> It applies different <b>deserialization methods</b> to keys if you have mixed
+                                        key-value pairs.
+                                    </li>
+                                    <li> It allows for easy addition of <b>new observers</b> to perform desired
+                                        operations on keys.
+                                    </li>
+                                    <li> You can remove the <b>parse_engine</b> observer in case of simple key-value
+                                        pairs.
+                                    </li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <a href="https://github.com/faizanfareed/RealtimePyConfigSync" target="blank">View
+                            source
+                            code
+                            on Github</a>
+                    </div>
+
+                    <!--COVID-->
+
+                    <div class="sixteen wide column">
+                        <br><br>
+                        <div class="header blue">
+                            <a class="header header-style">COVID-19 NEAR YOU </a>
+                        </div>
+                        <div class="ui divider"></div>
+                        <br>
+
+                        <div class="description desc-style">
+                            Finds confirmed cases in 1,2 and 3 km and quarantine center in 10 Km radius range
+                            based
+                            on user given location, give some useful advice and informational links, and
+                            help
+                            officials to control covid19 transmission.
+                        </div>
+                        <div class="ui horizontal list  ">
+                            <a class="item">
+                                <a class="ui blue basic label">Django</a>
+                            </a>
+                            <a class="item">
+                                <a class="ui blue basic label">Redis</a>
+                            </a>
+                            <a class="item">
+                                <a class="ui blue basic label">MySQL</a>
+                            </a>
+                            <a class="item">
+                                <a class="ui blue basic label">Leaflet Maps</a>
+                            </a>
+                            <a class="item">
+                                <a class="ui blue basic label">Semantic UI</a>
+                            </a>
+                            <a class="item">
+                                <a class="ui blue basic label">Jquery</a>
+                            </a>
+                            <a class="item">
+                                <a class="ui blue basic label">MIT license</a>
+                            </a>
+                        </div>
+
+                        <br>
+                        <br>
+                        <div class="ui accordion">
+                            <div class="title">
+                                <i class="dropdown icon"></i>
+                                Read more
+                            </div>
+                            <div class="content">
+                                <p class="transition hidden">
+
+                                <ol>
+                                    <li>Find the user's zone if they are in the Red, Yellow, or grey zone based on
+                                        the confirmed case around them.
+                                    </li>
+
+                                    <li>Advise people on what they should do or not if they are in the
+                                        infected region or not.
+                                    </li>
+
+                                    <li>Show clusters of COVID-19 regions for officials to take the right
+                                        decisions. And for the public to take appropriate precautions.
+                                        Officials can
+                                        <ul>
+                                            <li>Easily identify infected regions, and then impose lockdown
+                                                and run an awareness campaign.
+                                            </li>
+                                            <li>(Local authorities) can take quick and real-time
+                                                decisions.
+                                            </li>
+                                            <li>Identify those regions where no of cases increasing.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Show nearest confirmed case and Quarantine center point (address,
+                                        distance (from user location), and radius range).
+                                    </li>
+                                    <li>Show the total no of confirmed cases and no of points in different
+                                        ranges around the user.
+                                    </li>
+                                    <li>Provides WHO (World Health Organization) and National website links
+                                        for the latest information and some other useful links
+                                        <ul>
+                                            <li>Myth busters</li>
+                                            <li>When and how to use masks</li>
+                                            <li>Advice for public</li>
+                                            <li>Advocacy</li>
+                                        </ul>
+                                    </li>
+                                    <li>Users can also check other regions in case of if they wanna go or
+                                        someone coming from the infected region based on the result they
+                                        will take the right decision and appropriate precautions.
+                                    </li>
+                                </ol>
+
+                                If people already know about infected regions and people of these regions
+                                transmitting the virus, then they will avoid them, (infected regions and
+                                their
+                                people
+                                as well) so they will be taking the necessary precautions.
+                                <a href="https://faizanfareed.github.io/covid19-near-you/" target="blank">Read
+                                    more
+                                </a>
+                                <br><br>
+                                <p>
+                                    <b>REST API</b> module is for mobile application and secured from
+                                    distributed
+                                    denial-of-service (DDoS) attack using API rate limiter.
+                                </p>
+
+                                <p>
+                                    <b>Redis</b> in-memory database is used for the high availability of the
+                                    application and provides very low latency.
+                                </p>
+
+                                <p><b>Authentication and Authorization</b> feature for staff members e.g. if
+                                    multiple laboratories upload confirmed cases of covid19.
+                                </p>
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <a href="https://github.com/FaizanFareed/covid19-near-you" target="blank">View
+                            source
+                            code
+                            on Github</a>
+                    </div>
+                    <div class="sixteen wide column">
+                        <br><br>
+                        <div class="header blue">
+                            <a class="header header-style" id="opne-source-project-3">API Rate Limiter - Sliding Window
+                                Counter Algorithm </a>
+                        </div>
+                        <div class="ui divider"></div>
+                        <br>
+
+                        <div class="description desc-style">
+                            To protect API from DDoS attacks, avoid spikes in traffic,
+                            running API efficiently and for API scalability rate limiter component is
+                            essential.
+                            Python sliding window counter API rate limiter using Redis.
+
+                        </div>
 
 
-            <br>
-            <br>
+                        <div class="ui horizontal list  ">
+                            <a class="item">
+                                <a class="ui blue basic label">Python</a>
+                            </a>
+                            <a class="item">
+                                <a class="ui blue basic label">Redis</a>
+                            </a>
+                            <a class="item">
+                                <a class="ui blue basic label">MIT license</a>
+                            </a>
+
+                        </div>
+                        <br>
+                        <br>
+                        <div class="ui accordion">
+                            <div class="title">
+                                <i class="dropdown icon"></i>
+                                Read more
+                            </div>
+                            <div class="content">
+                                <p class="transition hidden">
+
+                                <p>
+                                    Compare to other rate limit algorithms sliding window counter is
+                                </p>
+                                <ol>
+                                    <li>
+                                        Avoid spikes (Smooth out brust)
+                                    </li>
+                                    <li>Memory efficient</li>
+                                </ol>
+                                <p>
+                                    Rate limit strategies allowed in this algorithm
+                                </p>
+                                <ol>
+                                    <li>
+                                        N requests per second.
+                                    </li>
+                                    <li>N requests per minute</li>
+                                    <li>N requests per hour</li>
+                                </ol>
+                                <p>
+                                    Rate limit HTTP headers allowed in this algorithm
+                                </p>
+                                <ol>
+                                    <li>
+                                        X-RateLimit-Limit
+                                    </li>
+                                    <li>X_RateLimit_Remaining</li>
+                                    <li>X-RateLimit-Reset</li>
+                                    <li>Retry-after</li>
+                                </ol>
+                                Optional parameters can be passed to the rate limiter when the first-time rate
+                                limiter
+                                initialized. These parameters are used for performance and to reduce memory
+                                usage.
+                                </a>
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <a href="https://github.com/faizanfareed/python-sliding-window-counter-rate-limiter"
+                            target="blank">View
+                            source code on Github</a>
+                    </div>
 
 
-        </div>
+                    <div class="sixteen wide column">
+                        <br><br>
+                        <div class="header blue">
+                            <a class="header header-style"> Portfolio database design</a>
+                        </div>
+                        <div class="ui divider"></div>
+                        <br>
+                        <div class="description desc-style">
+                            Personal Portfolio database design Entity relationship diagram.
+                        </div>
+                        <div class="ui horizontal list  ">
+                            <a class="item">
+                                <a class="ui blue basic label">SQL Script</a>
+                            </a>
+                            <a class="item">
+                                <a class="ui blue basic label">ERD Diagram</a>
+                            </a>
+                        </div>
+                        <br><br>
+                        <a href="https://github.com/faizanfareed/Personal-portfolio-database-design-ERD-"
+                            target="blank">View
+                            source
+                            code on Github</a>
+                    </div>
+                    <div class="two wide column">
+                    </div>
+                </div>
+                <!--            new open source projects-->
+                <br>
+                <br>
+            </div>
 
-        <!--
+            <!--
         NEW SECTION START -->
 
-        <h4 class="ui horizontal sub huge header divider" id="universitywork">
-            <a href="#">University work</a>
-        </h4>
-        <br>
-        <br>
-        <div class="ui centered grid">
-            <div class="column sixteen wide">
-
-
-                <div class="ui container">
-                    <div class="ui relaxed divided items">
-
-                        <div class="ui stackable grid faizan">
-                            <div class="two wide column">
-                            </div>
-                            <div class="twelve wide column">
-
-                                <div class="ui accordion">
-
-                                    <div class="title">
-                                        <i class="dropdown icon"></i>
-                                        Right Now - Final year project
-                                    </div>
-
-                                    <div class="content">
-                                        <div class="ui stackable grid faizan">
-
-                                            <div class="sixteen wide column">
-                                                <br><br>
-                                                <div class="header blue">
-                                                    <a class="header header-style"> Right Now - Final year project </a>
-                                                </div>
-
-                                                <div class="ui divider"></div>
-
-                                                <br>
-
-                                                <div class="description desc-style">
-                                                    We build a social networking application for android using google
-                                                    realtime firebase database.
-
-                                                </div>
-
-
-                                                <p class="transition hidden">
-                                                <div class="ui sub header">Why social networking application ?</div>
-                                                <br>
-
-                                                <p>
-                                                    The reason behind building this kind of application was users
-                                                    were/are dramatically increasing
-                                                    to
-                                                    use social
-                                                    networking
-                                                    applications.
-                                                    We also didn't want to build some management system, want to
-                                                    explore
-                                                    some
-                                                    NoSQL and real-time database which is Google Firebase.
-
-                                                </p>
-
-
-                                                <h4 class="ui  header">These were features of our application.</h4>
-
-
-                                                <ol class="ui list">
-
-                                                    <ol>
-                                                        <li value="1">One to one and one to many chat</li>
-                                                        <li value="2">Search user</li>
-                                                        <li value="3">Micro Blog</li>
-                                                        <li value="4"> 2 way blocking : Blocked user can send 3
-                                                            predefined messages.
-                                                        </li>
-                                                        <li value="5">Privacy : User profile not visible if privacy
-                                                            enabled by user.
-                                                        </li>
-                                                        <li value="6">Online presence</li>
-                                                        <li value="7">Send friend request,accept request and reject
-                                                            request.
-                                                        </li>
-                                                        <li value="8">Authentication</li>
-
+            <h4 class="ui horizontal sub huge header divider">
+                <a id="university-work">University work</a>
+            </h4>
+            <br>
+            <br>
+            <div class="ui centered grid">
+                <div class="column sixteen wide">
+                    <div class="ui container">
+                        <div class="ui relaxed divided items">
+                            <div class="ui stackable grid faizan">
+                                <div class="sixteen wide column">
+                                    <div class="ui accordion">
+                                        <div class="title" id="uni-1">
+                                            <i class="dropdown icon"></i>
+                                            Right Now - Final year project
+                                        </div>
+                                        <div class="content">
+                                            <div class="ui stackable grid faizan">
+                                                <div class="sixteen wide column">
+                                                    <br><br>
+                                                    <div class="header blue">
+                                                        <a class="header header-style"> Right Now - Final year project
+                                                        </a>
+                                                    </div>
+                                                    <div class="ui divider"></div>
+                                                    <br>
+                                                    <div class="description desc-style">
+                                                        We build a social networking application for android using
+                                                        google
+                                                        realtime firebase database.
+                                                    </div>
+                                                    <p class="transition hidden">
+                                                    <div class="ui sub header">Why social networking application ?</div>
+                                                    <br>
+                                                    <p>
+                                                        The reason behind building this kind of application was users
+                                                        were/are dramatically increasing
+                                                        to
+                                                        use social
+                                                        networking
+                                                        applications.
+                                                        We also didn't want to build some management system, want to
+                                                        explore
+                                                        some
+                                                        NoSQL and real-time database which is Google Firebase.
+                                                    </p>
+                                                    <h4 class="ui  header">These were features of our application.</h4>
+                                                    <ol class="ui list">
+                                                        <ol>
+                                                            <li value="1">One to one and one to many chat</li>
+                                                            <li value="2">Search user</li>
+                                                            <li value="3">Micro Blog</li>
+                                                            <li value="4"> 2 way blocking : Blocked user can send 3
+                                                                predefined messages.
+                                                            </li>
+                                                            <li value="5">Privacy : User profile not visible if privacy
+                                                                enabled by user.
+                                                            </li>
+                                                            <li value="6">Online presence</li>
+                                                            <li value="7">Send friend request,accept request and reject
+                                                                request.
+                                                            </li>
+                                                            <li value="8">Authentication</li>
+                                                        </ol>
                                                     </ol>
-                                                </ol>
+                                                    </p>
+                                                    <div class="ui horizontal list  ">
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Android Application</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Google Firebase Realtime
+                                                                Database</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Java</a>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!--                             university projects added-->
+                                        <div class="title" id="uni_2">
+                                            <i class="dropdown icon"></i>
+                                            Phishing Website Detection
+                                        </div>
+
+                                        <div class="content">
+                                            <div class="ui stackable grid faizan">
+
+                                                <div class="sixteen wide column">
+                                                    <br><br>
+                                                    <div class="header blue">
+                                                        <a class="header header-style">Phishing website Detection </a>
+                                                    </div>
+
+                                                    <div class="ui divider"></div>
+
+                                                    <br>
+
+                                                    <div class="description desc-style">
+                                                        Hackers using social engineering attacks to steal user
+                                                        credentials
+                                                        like email,
+                                                        passwords and credit card details using a phishing website.
 
 
-                                                </p>
+                                                        To detect phishing websites using machine learning I trained the
+                                                        model using
+                                                        a cluster-computing framework called Apache Spark on data-bricks
+                                                        cloud because no of
+                                                        records were 11055
+                                                        and 31 attributes. Train the model on s single machine was not
+                                                        good
+                                                        because it takes a
+                                                        a lot of time. The Data set was also preprocessed before train
+                                                        and
+                                                        test the model.
+
+                                                    </div>
 
 
-                                                <div class="ui horizontal list  ">
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Android Application</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Google Firebase Realtime
-                                                            Database</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Java</a>
-                                                    </a>
+                                                    <div class="ui horizontal list  ">
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Python</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Apache Spark</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Machine Learning</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Data-bricks cloud</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Big Data Programming </a>
+                                                        </a>
+
+                                                    </div>
 
                                                 </div>
+
 
                                             </div>
 
                                         </div>
-                                    </div>
+                                        <div class="title" id="uni_3">
+                                            <i class="dropdown icon"></i>
+                                            Loan Prediction
+                                        </div>
 
-                                    <!--                             university projects added-->
-                                    <div class="title">
-                                        <i class="dropdown icon"></i>
-                                        Phishing website Detection
-                                    </div>
+                                        <div class="content">
+                                            <div class="ui stackable grid faizan">
 
-                                    <div class="content">
-                                        <div class="ui stackable grid faizan">
+                                                <div class="sixteen wide column">
+                                                    <br><br>
+                                                    <div class="header blue">
+                                                        <a class="header header-style">Loan Prediction</a>
+                                                    </div>
+                                                    <div class="ui divider"></div>
 
-                                            <div class="sixteen wide column">
-                                                <br><br>
-                                                <div class="header blue">
-                                                    <a class="header header-style">Phishing website Detection </a>
-                                                </div>
+                                                    <br>
 
-                                                <div class="ui divider"></div>
+                                                    <div class="description desc-style">
+                                                        I build a loan prediction machine learning model that predicts
+                                                        loan
+                                                        is returned or not
+                                                        by lonee. Instead of using the scikit-learn library to train and
+                                                        test
+                                                        the model I wrote
+                                                        Navive base mathematical model from scratch in python to
+                                                        understand
+                                                        how this
+                                                        the mathematical method works. Data was in categorical format
+                                                        and
+                                                        some
+                                                        records were missing
+                                                        so data were preprocessed before training and testing the model.
 
-                                                <br>
-
-                                                <div class="description desc-style">
-                                                    Hackers using social engineering attacks to steal user credentials
-                                                    like email,
-                                                    passwords and credit card details using a phishing website.
-
-
-                                                    To detect phishing websites using machine learning I trained the
-                                                    model using
-                                                    a cluster-computing framework called Apache Spark on data-bricks
-                                                    cloud because no of
-                                                    records were 11055
-                                                    and 31 attributes. Train the model on s single machine was not good
-                                                    because it takes a
-                                                    a lot of time. The Data set was also preprocessed before train and
-                                                    test the model.
-
-                                                </div>
+                                                    </div>
 
 
-                                                <div class="ui horizontal list  ">
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Python</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Apache Spark</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Machine Learning</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Data-bricks cloud</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Big Data Programming </a>
-                                                    </a>
+                                                    <div class="ui horizontal list  ">
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Python</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Machine Learning</a>
+                                                        </a>
+
+                                                    </div>
 
                                                 </div>
+
 
                                             </div>
 
-
+                                        </div>
+                                        <div class="title" id="uni_4">
+                                            <i class="dropdown icon"></i>
+                                            Socket Programming
                                         </div>
 
-                                    </div>
-                                    <div class="title">
-                                        <i class="dropdown icon"></i>
-                                        Loan Prediction
-                                    </div>
+                                        <div class="content">
+                                            <div class="ui stackable grid faizan">
 
-                                    <div class="content">
-                                        <div class="ui stackable grid faizan">
+                                                <div class="sixteen wide column">
+                                                    <br><br>
+                                                    <div class="header blue">
+                                                        <a class="header header-style">Socket Programming</a>
+                                                    </div>
+                                                    <div class="ui divider"></div>
+                                                    <br>
+                                                    <div class="description desc-style">
+                                                        I implemented client and server architecture using Java.
+                                                        The server was bind to an IP address and port and which listen
+                                                        to
+                                                        client request.
+                                                        The client sends the request to the server and then
+                                                        the server sends a response back to the client.
+                                                        Also, implemented a proxy server where client requests went from
+                                                        the
+                                                        proxy server to the
+                                                        main server
+                                                        and then the response sends back to the proxy server to the
+                                                        client.
 
-                                            <div class="sixteen wide column">
-                                                <br><br>
-                                                <div class="header blue">
-                                                    <a class="header header-style">Loan Prediction</a>
+                                                    </div>
+                                                    <div class="ui horizontal list  ">
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Java</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">TCP/IP</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Computer Networks</a>
+                                                        </a>
+                                                    </div>
                                                 </div>
-
-                                                <div class="ui divider"></div>
-
-                                                <br>
-
-                                                <div class="description desc-style">
-                                                    I build a loan prediction machine learning model that predicts loan
-                                                    is returned or not
-                                                    by lonee. Instead of using the scikit-learn library to train and
-                                                    test
-                                                    the model I wrote
-                                                    Navive base mathematical model from scratch in python to understand
-                                                    how this
-                                                    the mathematical method works. Data was in categorical format and
-                                                    some
-                                                    records were missing
-                                                    so data were preprocessed before training and testing the model.
-
-                                                </div>
-
-
-                                                <div class="ui horizontal list  ">
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Python</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Machine Learning</a>
-                                                    </a>
-
-                                                </div>
-
                                             </div>
 
-
+                                        </div>
+                                        <div class="title" id="uni_5">
+                                            <i class="dropdown icon"></i>
+                                            Green Veggies
                                         </div>
 
-                                    </div>
-                                    <div class="title">
-                                        <i class="dropdown icon"></i>
-                                        Socket Programming
-                                    </div>
+                                        <div class="content">
+                                            <div class="ui stackable grid faizan">
 
-                                    <div class="content">
-                                        <div class="ui stackable grid faizan">
+                                                <div class="sixteen wide column">
+                                                    <br><br>
+                                                    <div class="header blue">
+                                                        <a class="header header-style">Green Veggies</a>
+                                                    </div>
 
-                                            <div class="sixteen wide column">
-                                                <br><br>
-                                                <div class="header blue">
-                                                    <a class="header header-style">Socket Programming</a>
+                                                    <div class="ui divider"></div>
+
+                                                    <br>
+
+                                                    <div class="description desc-style">
+                                                        I designed the ERD (Entity Relationship Diagram) of the
+                                                        inventory
+                                                        system and developed a
+                                                        desktop application using java.
+                                                        Green veggies was the name of the application.
+                                                        Customer and staff members log in to the system using their
+                                                        credentials,
+                                                        customers can place orders, view their cart, staff members
+                                                        manage
+                                                        their
+                                                        stock details, ready
+                                                        their shipment details, etc. And I also a wrote software
+                                                        requirements
+                                                        specification document for this project.
+
+                                                    </div>
+
+
+                                                    <div class="ui horizontal list  ">
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">MySQL Database</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Java</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Entity relationship
+                                                                diagram</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Desktop Application</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Introduction to Database
+                                                                system</a>
+                                                        </a>
+                                                    </div>
                                                 </div>
-
-                                                <div class="ui divider"></div>
-
-                                                <br>
-
-                                                <div class="description desc-style">
-                                                    I implemented client and server architecture using Java.
-                                                    The server was bind to an IP address and port and which listen to
-                                                    client request.
-                                                    The client sends the request to the server and then
-                                                    the server sends a response back to the client.
-                                                    Also, implemented a proxy server where client requests went from the
-                                                    proxy server to the
-                                                    main server
-                                                    and then the response sends back to the proxy server to the client.
-
-                                                </div>
-
-
-                                                <div class="ui horizontal list  ">
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Java</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">TCP/IP</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Computer Networks</a>
-                                                    </a>
-
-                                                </div>
-
                                             </div>
-
-
                                         </div>
-
-                                    </div>
-                                    <div class="title">
-                                        <i class="dropdown icon"></i>
-                                        Green Veggies
-                                    </div>
-
-                                    <div class="content">
-                                        <div class="ui stackable grid faizan">
-
-                                            <div class="sixteen wide column">
-                                                <br><br>
-                                                <div class="header blue">
-                                                    <a class="header header-style">Green Veggies</a>
+                                        <div class="title" id="uni_6">
+                                            <i class="dropdown icon"></i>
+                                            Weather App
+                                        </div>
+                                        <div class="content">
+                                            <div class="ui stackable grid faizan">
+                                                <div class="sixteen wide column">
+                                                    <br><br>
+                                                    <div class="header blue">
+                                                        <a class="header header-style">Weather App</a>
+                                                    </div>
+                                                    <div class="ui divider"></div>
+                                                    <br>
+                                                    <div class="description desc-style">
+                                                        I developed a weather application in which the application sends
+                                                        the REST API call to
+                                                        Weather API
+                                                        based on
+                                                        user location and then get a response back into
+                                                        JSON format after that result parsed and display back to the
+                                                        application user interface.
+                                                    </div>
+                                                    <div class="ui horizontal list  ">
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Android Application</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Weather REST API</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Java</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Mobile Application
+                                                                Development</a>
+                                                        </a>
+                                                    </div>
                                                 </div>
-
-                                                <div class="ui divider"></div>
-
-                                                <br>
-
-                                                <div class="description desc-style">
-                                                    I designed the ERD (Entity Relationship Diagram) of the inventory
-                                                    system and developed a
-                                                    desktop application using java.
-                                                    Green veggies was the name of the application.
-                                                    Customer and staff members log in to the system using their
-                                                    credentials,
-                                                    customers can place orders, view their cart, staff members manage
-                                                    their
-                                                    stock details, ready
-                                                    their shipment details, etc. And I also a wrote software
-                                                    requirements
-                                                    specification document for this project.
-
-                                                </div>
-
-
-                                                <div class="ui horizontal list  ">
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">MySQL Database</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Java</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Entity relationship diagram</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Desktop Application</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Introduction to Database
-                                                            system</a>
-                                                    </a>
-
-                                                </div>
-
                                             </div>
-
-
                                         </div>
+                                        <div class="title" id="uni_7">
+                                            <i class="dropdown icon"></i>
+                                            School Test System
+                                        </div>
+                                        <div class="content">
+                                            <div class="ui stackable grid faizan">
 
-                                    </div>
-                                    <div class="title">
-                                        <i class="dropdown icon"></i>
-                                        Weather App
-                                    </div>
+                                                <div class="sixteen wide column">
+                                                    <br><br>
+                                                    <div class="header blue">
+                                                        <a class="header header-style">School Test System</a>
+                                                    </div>
 
-                                    <div class="content">
-                                        <div class="ui stackable grid faizan">
+                                                    <div class="ui divider"></div>
 
-                                            <div class="sixteen wide column">
-                                                <br><br>
-                                                <div class="header blue">
-                                                    <a class="header header-style">Weather App</a>
+                                                    <br>
+
+                                                    <div class="description desc-style">
+                                                        We developed a school test system for conducting student tests.
+                                                        We
+                                                        developed desktop
+                                                        application
+                                                        using java (Abstract Window Toolkit (AWT) API for front-end) and
+                                                        we used a file system for data storage.
+
+
+                                                        Teacher upload their questioner to the system and then the
+                                                        questioner
+                                                        was validated before
+                                                        saving into
+                                                        the storage system.
+                                                        Students log in to the system using their credentials and give
+                                                        test
+                                                        after that result
+                                                        was
+                                                        displayed
+                                                        to student.
+
+                                                        My responsibility was to design the whole system design and
+                                                        develop
+                                                        backend and my teammate designed the front-end.
+
+                                                    </div>
+
+
+                                                    <div class="ui horizontal list  ">
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Java</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">File system</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Desktop Application</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Software Construction |
+                                                                Java</a>
+                                                        </a>
+                                                    </div>
                                                 </div>
-
-                                                <div class="ui divider"></div>
-
-                                                <br>
-
-                                                <div class="description desc-style">
-                                                    I developed a weather application in which the application sends
-                                                    the REST API call to
-                                                    Weather API
-                                                    based on
-                                                    user location and then get a response back into
-                                                    JSON format after that result parsed and display back to the
-                                                    application user interface.
-
-                                                </div>
-
-
-                                                <div class="ui horizontal list  ">
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Android Application</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Weather REST API</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Java</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Mobile Application
-                                                            Development</a>
-                                                    </a>
-
-                                                </div>
-
                                             </div>
-
-
+                                        </div>
+                                        <div class="title" id="uni_8">
+                                            <i class="dropdown icon"></i>
+                                            Plant and Zombie Game and Car Android Application
                                         </div>
 
-                                    </div>
-                                    <div class="title">
-                                        <i class="dropdown icon"></i>
-                                        School Test System
-                                    </div>
+                                        <div class="content">
+                                            <div class="ui stackable grid faizan">
 
-                                    <div class="content">
-                                        <div class="ui stackable grid faizan">
+                                                <div class="sixteen wide column">
+                                                    <br><br>
+                                                    <div class="header blue">
+                                                        <a class="header header-style">Plant and Zombie Game and Car
+                                                            Android
+                                                            Application</a>
+                                                    </div>
 
-                                            <div class="sixteen wide column">
-                                                <br><br>
-                                                <div class="header blue">
-                                                    <a class="header header-style">School Test System</a>
+                                                    <div class="ui divider"></div>
+
+                                                    <br>
+
+                                                    <div class="description desc-style">
+                                                        I analyzed both applications how they work and which data they
+                                                        were
+                                                        storing. List down the functional and non-functional
+                                                        requirements of
+                                                        both apps. After reverse engineering, I designed the use case
+                                                        diagram, entity-relationship diagram, and UML diagram for both
+                                                        applications. And wrote an SRS (Software Requirement
+                                                        Specification)
+                                                        document for both applications.
+                                                    </div>
+
+
+                                                    <div class="ui horizontal list  ">
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Documentation</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Requirements Analysis</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Functional and non
+                                                                functional</a>
+                                                        </a>
+                                                        <a class="item">
+                                                            <a class="ui blue basic label">Software engineering</a>
+                                                        </a>
+                                                    </div>
                                                 </div>
-
-                                                <div class="ui divider"></div>
-
-                                                <br>
-
-                                                <div class="description desc-style">
-                                                    We developed a school test system for conducting student tests. We
-                                                    developed desktop
-                                                    application
-                                                    using java (Abstract Window Toolkit (AWT) API for front-end) and
-                                                    we used a file system for data storage.
-
-
-                                                    Teacher upload their questioner to the system and then the
-                                                    questioner
-                                                    was validated before
-                                                    saving into
-                                                    the storage system.
-                                                    Students log in to the system using their credentials and give test
-                                                    after that result
-                                                    was
-                                                    displayed
-                                                    to student.
-
-                                                    My responsibility was to design the whole system design and develop
-                                                    backend and my teammate designed the front-end.
-
-                                                </div>
-
-
-                                                <div class="ui horizontal list  ">
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Java</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">File system</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Desktop Application</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Software Construction | Java</a>
-                                                    </a>
-
-                                                </div>
-
                                             </div>
-
-
                                         </div>
-
+                                        <!--                             university projects added-->
                                     </div>
-                                    <div class="title">
-                                        <i class="dropdown icon"></i>
-                                        Plant and Zombie Game and Car Android Application
-                                    </div>
-
-                                    <div class="content">
-                                        <div class="ui stackable grid faizan">
-
-                                            <div class="sixteen wide column">
-                                                <br><br>
-                                                <div class="header blue">
-                                                    <a class="header header-style">Plant and Zombie Game and Car Android
-                                                        Application</a>
-                                                </div>
-
-                                                <div class="ui divider"></div>
-
-                                                <br>
-
-                                                <div class="description desc-style">
-                                                    I analyzed both applications how they work and which data they were
-                                                    storing. List down the functional and non-functional requirements of
-                                                    both apps. After reverse engineering, I designed the use case
-                                                    diagram, entity-relationship diagram, and UML diagram for both
-                                                    applications. And wrote an SRS (Software Requirement Specification)
-                                                    document for both applications.
-                                                </div>
-
-
-                                                <div class="ui horizontal list  ">
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Documentation</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Requirements Analysis</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Functional and non functional</a>
-                                                    </a>
-                                                    <a class="item">
-                                                        <a class="ui blue basic label">Software engineering</a>
-                                                    </a>
-
-                                                </div>
-
-                                            </div>
-
-
-                                        </div>
-
-                                    </div>
-
-                                    <!--                             university projects added-->
-
-
                                 </div>
-
                             </div>
-                            <div class="two wide column">
-                            </div>
+                            <!--                    university section ended-->
+                            <br>
+                            <br>
                         </div>
-
-
-                        <!--                    university section ended-->
-                        <br>
-                        <br>
-
-
-                        <h4 class="ui horizontal sub huge header  divider ">
-                            <a>Other Stuff</a>
-                        </h4>
-
-                        <div class="ui stackable grid faizan">
-                            <div class="two wide column">
-                            </div>
-                            <div class="twelve wide column">
-                                <br><br>
-
-                                <br> <br>
-
-
-                                <div class="header blue">
-                                    <a class="header header-style"> Certifications </a>
-                                </div>
-
-
-                                <div class="ui divider"></div>
-
-
-                                <div class="ui  header">
-
-
-                                    <a href="https://bit.ly/2VCf7FJ" target="_blank"> Introduction to python</a>
-
-                                    <div class="ui sub header ">
-
-                                        <span>DataCamp</span>
-                                        <p>Issued Sep 2018 . No Expiration Date</p>
-
-                                    </div>
-                                </div>
-                                <br>
-
-                                <br>
-                                <div class="header blue">
-                                    <a class="header header-style"> Work with </a>
-                                </div>
-
-
-                                <div class="ui divider"></div>
-
-                                <br>
-                                <div class="ui horizontal   list  ">
-
-                                    <a class="ui blue basic label">Python</a>
-                                    </a>
-                                    <a class="item">
-                                        <a class="ui blue basic label">Django</a>
-                                    </a>
-                                    <a class="item">
-                                        <a class="ui blue basic label">Django REST framework</a>
-                                    </a>
-                                    <a class="item">
-                                        <a class="ui blue basic label">Redis</a>
-                                    </a>
-                                    <a class="ui  blue  basic  label">Synchronous and Asynchronous REST APIs</a>
-
-                                    <a class="item space">
-                                        <a class="ui blue   basic  label">Geo-spatial data </a>
-                                    </a>
-
-
-                                    <a class="item space">
-                                        <a class="ui blue  basic   label">Anymail API</a>
-                                    </a>
-
-                                    <a class="item space">
-                                        <a class="ui blue  basic   label">Oauth (Allauth) </a>
-                                    </a>
-                                    <a class="item">
-                                        <a class="ui blue   basic  label">JWT (JSON WEB TOKEN) </a>
-                                    </a>
-
-                                    <a class="item">
-                                        <a class="ui blue   basic  label">Leaflet Maps </a>
-                                    </a>
-
-
-                                    <a class="item">
-                                        <a class="ui blue basic label">Apache Kafka</a>
-                                    </a>
-                                    <a class="item">
-                                        <a class="ui blue basic label">MongoDB</a>
-                                    </a>
-
-                                    <a class="item">
-                                        <a class="ui blue basic label">Git</a>
-                                    </a>
-                                    <a class="item">
-                                        <a class="ui blue basic label">GitHub</a>
-                                    </a>
-                                    <a class="item">
-                                        <a class="ui blue basic label">Apache Airflow</a>
-                                    </a>
-                                    <a class="item">
-                                        <a class="ui blue basic label">Bash</a>
-                                    </a>
-
-                                    <a class="item">
-                                        <a class="ui blue basic label">Celery</a>
-                                    </a>
-                                    <a class="item">
-                                        <a class="ui blue basic label">Google FCM (Firebase Cloud Messaging)</a>
-                                    </a>
-                                    <a class="item">
-                                        <a class="ui blue basic label">Docker and docker-compose</a>
-                                    </a>
-                                    <a class="item space">
-                                        <a class="ui  blue  basic  label">Web-sockets </a>
-                                    </a>
-                                    <a class="item">
-                                        <a class="ui blue basic label">PostgreSQL</a>
-                                    </a>
-                                    <a class="item">
-                                        <a class="ui blue basic label">NGINX</a>
-                                    </a>
-
-                                    <a class="item">
-                                        <a class="ui blue basic label">Google compute engine : VM's</a>
-                                    </a>
-                                    <a class="item">
-                                        <a class="ui blue basic label">Socket.io</a>
-                                    </a>
-
-                                    <a class="item">
-                                        <a class="ui blue basic label">Redis Pub/Sub</a>
-                                    </a>
-                                    <a class="item">
-                                        <a class="ui blue basic label">Ubuntu</a>
-                                    </a>
-
-
-                                </div>
-
-                                <br> <br>
-                                <br>
-                                <br>
-                                <div class="header blue">
-                                    <a class="header header-style"> Tools </a>
-                                </div>
-
-
-                                <div class="ui divider"></div>
-
-                                <br>
-
-                                <div class="ui horizontal list  ">
-                                    <a class="item space">
-                                        <a class="ui  blue  basic  label ">PyCharm </a>
-                                    </a>
-                                    <a class="item space">
-                                        <a class="ui  blue  basic  label ">MongoDB Compass </a>
-                                    </a>
-                                    <a class="item space">
-                                        <a class="ui  blue  basic  label ">Redis Desktop Manager </a>
-                                    </a>
-
-
-                                    <a class="item space">
-                                        <a class="ui  blue  basic  label ">PgAdmin (PSQL) </a>
-                                    </a>
-                                    <a class="item space">
-                                        <a class="ui  blue  basic  label ">Postman </a>
-                                    </a>
-
-                                    <!--                                    <a class="item space">-->
-                                    <!--                                        <a class="ui  blue basic   label ">MySQL Workbench </a>-->
-                                    <!--                                    </a>-->
-
-
-                                    <a class="item  ">
-                                        <a class="ui   blue basic   label">Visual Studio Code</a>
-                                    </a>
-                                    <a class="item">
-                                        <a class="ui blue basic label">Microsoft Planner</a>
-                                    </a>
-
-                                    <a class="item">
-                                        <a class="ui blue basic label">Microsoft Teams</a>
-                                    </a>
-
-
-                                </div>
-
-                                <br>
-
-                                <br>
-                                <br> <br>
-                                <br>
-
-                                <div class="header blue">
-                                    <a class="header header-style">Volunteer Work </a>
-                                </div>
-
-
-                                <div class="ui divider"></div>
-
-
-                                <br>
-
-                                <p class="desc-style">I voluntarily worked in an exhibition held by the Institute of
-                                    Communication and Cultural
-                                    Studies (ICCS)
-                                    Department of </p>
-
-                                <p><i class="university icon "></i> <a href="https://www.umt.edu.pk/"
-                                                                       target="blank">University
-                                    of
-                                    Management and
-                                    Technology, Lahore Pakistan </a></p>
-
-
-                                <div class="ui horizontal list  ">
-                                    <a class="item space">
-                                        <a class="ui  blue basic   label"> Graphic designer</a>
-                                    </a>
-
-                                    <a class="item space">
-                                        <a class="ui blue  basic   label ">Picture editor </a>
-                                    </a>
-
-
-                                </div>
-                                <br>
-                                <br>
-                                <br>
-                                <br>
-                                <div class="header blue">
-                                    <a class="header header-style"> Hobbies </a>
-                                </div>
-
-
-                                <div class="ui divider"></div>
-
-                                <br>
-                                <div class="ui horizontal list  ">
-
-                                    <a class="item space">
-                                        <a class="ui basic blue  label ">Review questions and answers on Stack
-                                            overflow </a>
-                                    </a>
-
-
-                                    <a class="item space">
-                                        <a class="ui blue basic   label ">Watch tech conferences </a>
-                                    </a>
-                                    <a class="item space">
-                                        <a class="ui blue basic   label">Read tech-related books and blogs</a>
-                                    </a>
-
-
-                                </div>
-                            </div>
-
-                            <div class="two wide column">
-                            </div>
-
-
-                        </div>
-
-
-                        <br><br><br>
-
-
-                        <br>
-
-                        <br>
-
-                        <div class="ui right floated horizontal list">
-                            <div class="disabled item" href="#">
-                                <p> Open Source <i class="heart icon red "></i></p></div>
-                            <a class="item" href="#">Let's chat ...</a>
-                        </div>
-
-
-                        <div class="ui right floated horizontal list">
-                            <div class="description">
-                            </div>
-
-                            <div class="disabled item" href="#"></div>
-
-                        </div>
-
-
-                        <i class="fighter jet icon"></i>
                     </div>
+                    <script>
+                        $(document).ready(function () {
+                            // Initialize Semantic UI accordion
+                            $('.ui.accordion').accordion();
 
+                            // Initialize dropdowns properly (including nested ones)
+                            $('.ui.dropdown').dropdown({
+                                on: 'click' // Ensures dropdown opens on click
+                            });
 
+                            // Show "Back to Menu" button on scroll
+                            document.addEventListener("scroll", function () {
+                                const button = document.getElementById("back-to-menu");
+                                if (window.scrollY > 200) {
+                                    button.style.display = "block";
+                                } else {
+                                    button.style.display = "none";
+                                }
+                            });
+
+                            // Scroll back to top when "Back to Menu" is clicked
+                            document.getElementById("back-to-menu").addEventListener("click", function () {
+                                window.scrollTo({ top: 0, behavior: "smooth" });
+                            });
+
+                            // Smooth scrolling for menu items
+                            document.querySelectorAll('#main-menu a, #back-to-menu').forEach(anchor => {
+                                anchor.addEventListener('click', function (e) {
+                                    e.preventDefault();
+                                    const targetId = this.getAttribute('href').substring(1);
+                                    const targetElement = document.getElementById(targetId);
+
+                                    if (targetElement) {
+                                        window.scrollTo({
+                                            top: targetElement.offsetTop - 50, // Adjust for fixed headers
+                                            behavior: 'smooth'
+                                        });
+                                    }
+                                });
+                            });
+
+                            // Smooth scrolling for dropdown TOC menu items
+                            document.querySelectorAll('.ui.dropdown .menu .item[href]').forEach(anchor => {
+                                anchor.addEventListener('click', function (e) {
+                                    e.preventDefault();
+                                    const targetId = this.getAttribute('href').substring(1);
+                                    const targetElement = document.getElementById(targetId);
+
+                                    if (targetElement) {
+                                        window.scrollTo({
+                                            top: targetElement.offsetTop - 50, // Adjust if needed
+                                            behavior: 'smooth'
+                                        });
+                                    }
+                                });
+                            });
+                        });
+                    </script>
                 </div>
-
-
-                <script>
-                    $(document).ready(function () {
-                        // disable right click
-                        //  document.addEventListener('contextmenu', event => event.preventDefault());
-
-                        $('.ui.accordion').accordion();
-
-
-
-
-                    });
-
-
-                </script>
-
-
             </div>
         </div>
-
-
     </div>
-</div>
-
 </body>
 
 </html>
